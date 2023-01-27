@@ -1,4 +1,4 @@
-const increment = (counterVal) => {
+const increment = (counterVal: number) => {
   return counterVal + 1;
 }
 
