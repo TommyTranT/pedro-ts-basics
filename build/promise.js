@@ -1,3 +1,4 @@
+"use strict";
 /* javascript example
 
 const fetchData = (apiUrl) => {
@@ -12,4 +13,8 @@ console.log(data.age)
 console.log(data.isMarried)
 
 */
-
+// declare type for function name, parameter and return (returning a promise) which needs an interface
+const fetchData = (apiUrl) => {
+    return fetch(apiUrl)
+        .then((response) => response.json());
+};

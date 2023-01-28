@@ -6,6 +6,23 @@ const age: number = 27;
 let programmingLanguages: string[] = ['javascript', 'ruby', 'python']
 programmingLanguages.push('golang');
 
+// Define type in object
+interface IProgrammingLanguage {
+  name: string;
+  awesome: boolean;
+  age?: number;
+}
+
+const typeScript: IProgrammingLanguage = {
+  name: 'typescript',
+  awesome: true
+}
+
+const python: IProgrammingLanguage = {
+  name: 'python',
+  awesome: false
+}
+
 // Define argument type in functions
 const increment = (counterVal: number) => {
   return counterVal + 1;
