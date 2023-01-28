@@ -12,3 +12,12 @@ const increment = (counterVal: number) => {
 }
 
 const counter: number = increment(10);
+
+
+// https://www.youtube.com/watch?v=-w1i-gARuJs
+
+// https://www.youtube.com/watch?v=1jMJDbq7ZX4
+
+// https://www.youtube.com/watch?v=bjnW2NLAofI
+
+// https://www.youtube.com/watch?v=BwuLxPH8IDs

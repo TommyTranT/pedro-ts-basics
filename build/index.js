@@ -10,3 +10,8 @@ const increment = (counterVal) => {
     return counterVal + 1;
 };
 const counter = increment(10);
+7;
+55;
+https: //www.youtube.com/watch?v=-w1i-gARuJs
+ https: //www.youtube.com/watch?v=1jMJDbq7ZX4
+ https: ; //www.youtube.com/watch?v=bjnW2NLAofI
